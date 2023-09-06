@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content-box">
+        <h1>Love Calculator</h1>
+        <p>Please enter your name and your crush's name to see
+            if your relationship will workout!
+        </p>
+        <label for="your-name">Your Name: </label>
+        <input type="text" id="your-name" name="your-name" required>
+        <br><br>
+        <label for="crush-name">Crush Name: </label>
+        <input type="text" id="crush-name" name="crush-name" required>
+        <br><br>
+        <button id="calculate">Calculate</button>
+        <h2 id="result-message"></h2>
+        <p id="result-percentage"></p>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
